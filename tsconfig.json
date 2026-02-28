@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es2024",
+    "outDir": "./dist"
+  },
+  "include": ["src", "modules/initialPrepare.ts", "modules/presentation.ts"],
+  "exclude": ["node_modules"]
+}

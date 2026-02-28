@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.tempNumbers = exports.NoOfCards = exports.initPrepare = void 0;
+exports.initPrepare = {};
+exports.initPrepare.cards = [];
+exports.initPrepare.progress = 0;
+exports.initPrepare.fullTrackAudio = new Audio("../assets/audio/fulltrack.mp3");
+exports.initPrepare.failAudio = new Audio("../assets/audio/fail.mp3");
+exports.initPrepare.flipAudio = new Audio("../assets/audio/flip.mp3");
+exports.initPrepare.goodAudio = new Audio("../assets/audio/good.mp3");
+exports.initPrepare.gameOverAudio = new Audio("../assets/audio/game-over.mp3");
+exports.initPrepare.fullTrackAudio.loop = true;
+exports.NoOfCards = 20;
+exports.tempNumbers = [];
